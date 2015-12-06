@@ -1,0 +1,36 @@
+* How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+If the Bug is in the new version only, it's probably due to a typo or a missing command
+from last version, diff helps me in the way it makes easier and faster finding the changes
+I've made to the working version
+
+* How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It helps you compare file versions and learn about how a new feature is added or how a specific functionality is approved
+
+* What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions  
+  automatically saved, like Google Docs does?
+
+The advantages is that you have the ability to save commits that have logical meaning + that works without crashes + that have an accompanying commit message, but the problem may occur if someone uses a bad routine such as saving too much or too big commits
+
+* Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google 
+  Docs, treat each file separately?
+
+Git handles different files as one repository, and it assumes the files in one repository belongs to one projject, hence interrelated to each others somehow, while Google Docs treats a file as a single Document independent oof others
+
+* How can you use the commands git log and git diff to view the history of files?
+
+I can use git log to:
+1. see the commits message
+2. specify the commits ids to use in git diff
+
+then using git diff, I can see a whole trace of additions/deletions among commits
+
+* How might using version control make you more confident to make changes that could break something?
+
+i won't be afraid of making changes that might cause something to break, cause in any time i can return to a previous commit version, or compare my history to find the error
+
+* Now that you have your workspace set up, what do you want to try using Git for?
+
+Implementing and Developping my projects/websites/any code I write or test
+
