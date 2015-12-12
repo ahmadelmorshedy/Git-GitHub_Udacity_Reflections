@@ -9,3 +9,7 @@ It acts like an intermediate area between my offline directory (working director
 * How can you use the staging area to make sure you have one commit per logical change?
 
 By adding files to the staging before commit, giit status AND git diff --staged commands allow us to see what the files the staging area have and what changes they contain, allowing us to know exactly what our next commit's changes will be
+
+* What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+They can help by copying new features test to an entire new branch, so the branch history will be all about this feature, also it removes any conflict created if we needed for any reason to modify our original code before we finish the feature
