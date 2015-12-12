@@ -16,3 +16,13 @@ They can help by copying new features test to an entire new branch, so the branc
 
 * How do the diagrams help you visualize the branch structure?
 it displays the commits of branchhes in a tree-like display that helps seeing which commits refer to which branches and visualize the difference between different branches commits
+
+* What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It will merge the commits of the two branches for the two branches, update the Head for the two branches (as I understood) to be the resulting commit, it creates a new commit for the checked out branch which it merges the branches into,
+we can represent it in the diagram to ensure the commites were merged bacjk into that branch
+
+* What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Always doing merges manually results in no conflicts, but has the risk of forgetting something..
+while the automatic merge, well, I think it's better in all ways...
